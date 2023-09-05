@@ -1,0 +1,74 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;      
+    background-color: #dbedf3;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #3fc1c9;
+  border-width: 5px;
+  width: 30%;
+  margin: 25px 0 30px 0;
+}
+
+#details {
+  color: #590696;
+  padding-left: 3rem;
+  font-size: 18px;
+}
+
+#remark, #sn, #subj, #students, #total {
+      color: #590696;
+      text-transform: uppercase;
+    font-size: 17px;
+}
+#eng, #phy, #chem, #maths, #bio {
+    font-size: 15px;
+    text-transform: uppercase;
+}
+#table {
+  margin-top: 5rem;
+}
+td,
+th {
+  text-align: center;
+  padding: 5px;
+  font-weight: bolder;
+}
+.names {
+  text-align: left;
+  padding-left: 1rem;
+}
+#school {
+  margin-top: 4rem;
+}
+table,
+td,
+th {
+  border: 1px solid #590696;
+  padding: 5px;
+  border-spacing: 5px;
+}
+
+table {
+  margin-left: 3rem;
+}
+
+#students,
+#sub,
+#sn {
+  padding: 5px;
+}
+
+#totalscore {
+  font-weight: bold;
+  text-align: right;
+  font-size: 18px
+}
+
